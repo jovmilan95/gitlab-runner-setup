@@ -19,7 +19,7 @@ Usage: ./install.sh [-c CONCURRENT] [-o OUTPUT_LIMIT] [-k DEFAULT_KEEP_STORAGE] 
 
 -c CONCURRENT                Set the number of concurrent jobs (default: 8)
 -o OUTPUT_LIMIT              Set the output limit for jobs (default: 20480)
--k DEFAULT_KEEP_STORAGE      Set the default keep storage (default: 100GB)
+-k DEFAULT_KEEP_STORAGE      Set the default keep storage for the docker daemon (default: 100GB)
 -u GITLAB_URL                Set the GitLab URL (default: https://gitlab.nil.rs/)
 -t GITLAB_REGISTRATION_TOKEN GitLab registration token (required)
 ```
