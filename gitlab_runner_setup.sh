@@ -7,7 +7,7 @@ usage() {
   echo
   echo "  -c CONCURRENT                Set the number of concurrent jobs (default: 8)"
   echo "  -o OUTPUT_LIMIT              Set the output limit for jobs (default: 20480)"
-  echo "  -k DEFAULT_KEEP_STORAGE      Set the default keep storage (default: 100GB)"
+  echo "  -k DEFAULT_KEEP_STORAGE      Set the default keep storage for the docker daemon (default: 100GB)"
   echo "  -u GITLAB_URL                Set the GitLab URL (default: https://gitlab.nil.rs/)"
   echo "  -t GITLAB_REGISTRATION_TOKEN GitLab registration token (required)"
   echo "  -s SHELL                     Set the shell to use (default: pwsh)"
